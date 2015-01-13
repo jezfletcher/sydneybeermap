@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Sydney Beer Map</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="../static/locations.js"></script>
+<script type="text/javascript" src="../static/beermap.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40911732-2', 'jezfletcher.com');
+  ga('send', 'pageview');
+</script>
+<link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../static/map.css" />
+</head>
+<body onload="initialise()">
+<div id="header">
+  <div id="top">
+    <a href="/">Sydney Beer Map</a>
+  </div>
+  <div id="nav">
+    <ul>
+      <li>Created by <a target="_blank" href="http://jezfletcher.com">Jez Fletcher</a> (<a href="http://twitter.com/jezfletcher">@jezfletcher</a>)</li>
+      <li><a href="#" onclick="renderAbout()">About</a></li>
+    </ul>
+  </div>
+</div>
+<div class="mapContainer">
+  <div id="map" class="map"></div>
+  <div id="sidePanel" class="sidePanel">
+    <div id="sidePanelTitle" class="sidePanelTitle"></div>
+    <div id="sidePanelTitleSub" class="sidePanelTitleSub"></div>
+    <div id="sidePanelContent" class="sidePanelContent"></div>
+  </div>
+</div>
+</body>
+</html>

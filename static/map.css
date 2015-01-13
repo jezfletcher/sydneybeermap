@@ -1,0 +1,111 @@
+#header {
+  border: 2px solid #FF9D40;
+  font-family: Unica One, helvetica, ariel, sans-serif;
+  color: white;
+  width: 90%;
+  min-width: 1000px;
+  background-color: #FF7C00;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: #00D7FF;
+}  
+
+#top {
+  font-size: 40px;
+  text-align: center;
+}
+
+#nav {
+  align: center;
+  text-align: center;
+}  
+
+#nav ul, #links ul {
+  list-style: none;
+  list-style-position: inside;
+  padding: 2px 0px 0px 0px;
+  clear: left;
+}
+
+#nav li, #links li {
+  margin: 0px 10px 2px 0px;
+}
+
+.sidePanel {
+  float: left;
+  width: 20%;
+  min-width: 200px;
+  min-height: 570px;
+  height: 95%;
+  margin-left: 20px;
+  padding: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  overflow: scroll;
+}
+
+.sidePanelContent {
+  font-size: 14px;
+  font-family: Average Sans, helvetica, ariel, sans-serif;
+}
+
+.address {
+  font-style: italic;
+}
+
+.sidePanelTitle {
+  font-size: 35px;
+  text-align: center;
+  font-family: Unica One, helvetica, ariel, sans-serif;
+}
+
+.sidePanelTitleSub {
+  font-size: 15px;
+  text-align: center;
+  font-family: Average Sans, helvetica, ariel, sans-serif;
+  margin-bottom: 20px;
+}
+
+.sidePanel a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.sidePanel a:hover {
+  color: #008CA6;
+  text-decoration: none;
+}
+.mapContainer {
+  #border: 2px solid #FF9D40;
+  font-family: Average Sans, helvetica, ariel, sans-serif;
+  width: 90%;
+  min-height: 610px;
+  height: 80%;
+  min-width: 1000px;
+  background-color: #FFB773;
+  padding: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 15px auto;
+}
+
+.map {
+  width: 75%;
+  min-width: 750px; 
+  min-height: 600px;
+  height: 100%;
+  background-color: #000000;
+  float: left;
+}
